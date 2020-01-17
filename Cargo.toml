@@ -10,4 +10,9 @@ license = "MIT OR Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+static_assertions = { version = "1.1", optional = true }
 
+[features]
+default = []
+# Requires a `nightly` toolchain due to `const_transmute` feature.
+static-assert = ["static_assertions"]
