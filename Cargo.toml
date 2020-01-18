@@ -1,8 +1,11 @@
 [package]
 name = "tailed"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Igor Matuszewski <xanewok@gmail.com>"]
 edition = "2018"
+description = "Typed view into dynamically-sized byte buffers"
+repository = "https://github.com/xanewok/tailed"
+license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
